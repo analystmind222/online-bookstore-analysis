@@ -52,14 +52,23 @@ The project uses relational tables connected through keys:
 * Geographic distribution of customers
 * High-revenue cities or regions
 * Average book price by genre
-
----
+* Customer segmentation by spending and order frequency 
+  to identify high-value and repeat buyers
+* Genre-wise sales and revenue analysis revealing Mystery 
+  as top performer with seasonal demand spikes
+* Monthly trend analysis uncovering November peak orders 
+  and January highest revenue for Mystery genre
+* AOV comparison across genres to distinguish premium 
+  vs budget reader segments
+  ---
 
 ## Key Insights
 
-- Repeat customers contribute a major share of total revenue, highlighting strong customer retention.
-- A small group of books drives the majority of sales, indicating demand concentration on popular titles.
-- Customer retention plays a key role in business growth
+- 139 out of 307 customers (45.28%) are repeat buyers — nearly 1 in 2 customers returned, indicating strong 
+  retention potential and loyalty base worth targeting with personalized campaigns.
+- Mystery genre peaked in November (14 orders, 2x monthly average) but January generated highest revenue (₹2,121) 
+  with 19% higher AOV (₹176 vs ₹148) — indicating two distinct demand windows needing different strategies
+
 
 ---
 
