@@ -37,29 +37,36 @@ The project uses relational tables connected through keys:
 
 ## Key Analysis Performed
 
-* Total number of customers, books, and orders
-* Total revenue generated from orders
-* Top-selling books based on quantity sold
-* Most valuable customers by total spending
-* Repeat vs new customer distribution
-* Monthly order trends and seasonality
-* Genre-wise sales performance
-* Author-wise total books sold
-* High-value orders and spending patterns
-* Inventory analysis (total stock & low-stock books)
-* Most expensive and cheapest books
-* Frequently ordered books (popularity analysis)
-* Geographic distribution of customers
-* High-revenue cities or regions
-* Average book price by genre
-* Customer segmentation by spending and order frequency 
-  to identify high-value and repeat buyers
-* Genre-wise sales and revenue analysis revealing Mystery 
-  as top performer with seasonal demand spikes
-* Monthly trend analysis uncovering November peak orders 
-  and January highest revenue for Mystery genre
-* AOV comparison across genres to distinguish premium 
-  vs budget reader segments
+* Exploratory analysis of books, customers, and orders 
+  including total stock, revenue, and genre distribution
+
+* Customer segmentation by order frequency to identify 
+  repeat buyers and high-value spenders
+
+* Genre-wise sales analysis by quantity sold and total 
+  revenue to rank top performing categories
+
+* Seasonal demand analysis — monthly order trends by genre 
+  to uncover purchase spikes and demand patterns
+
+* Mystery genre deep-dive — monthly orders, revenue, and 
+  AOV to identify distinct high-volume vs high-value windows
+
+* Author-wise quantity analysis to identify top contributors 
+  to total book sales
+
+* Geographic analysis — cities where high-spending customers 
+  are located (orders exceeding $30)
+
+* Inventory analysis — total stock availability and 
+  low-stock book identification
+
+* Price analysis — most and least expensive books, 
+  average price by genre (Fantasy)
+
+* Popularity analysis — most frequently ordered book 
+  identification
+  
   ---
 
 ## Key Insights
@@ -79,6 +86,8 @@ The project uses relational tables connected through keys:
 * JOIN (INNER JOIN)
 * Aggregate Functions (SUM, COUNT, AVG)
 * Subqueries
+* LIMIT
+* DATE Functions (MONTH, BETWEEN)
 
 ---
 
