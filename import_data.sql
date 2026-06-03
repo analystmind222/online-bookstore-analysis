@@ -129,7 +129,7 @@ ORDER BY ORDER_COUNT DESC LIMIT 1;
 
 -- 5) Show the top 3 most expensive books of 'Fantasy' Genre :
 SELECT * FROM books
-WHERE genre ='Mystery'
+WHERE genre ='Fantasy'
 ORDER BY price DESC 
 LIMIT 3;
 
